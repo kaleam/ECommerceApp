@@ -1,2 +1,6 @@
-package com.example.userauthenticationservice.models;public enum State {
+package com.example.userauthenticationservice.models;
+
+public enum State {
+    ACTIVE,
+    INACTIVE
 }
