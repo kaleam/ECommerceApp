@@ -30,7 +30,7 @@ public class StorageProductService implements IProductService{
 
     @Override
     public Product createProduct(Product product) {
-        return null;
+        return productRepo.save(product);
     }
 
     @Override
