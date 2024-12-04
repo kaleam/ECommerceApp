@@ -6,12 +6,13 @@ import com.example.productcatalogservice.models.Category;
 import com.example.productcatalogservice.models.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
 @Service
-@Primary
+//@Primary
 public class FakeStoreProductService implements IProductService{
 
     @Autowired
@@ -26,13 +27,18 @@ public class FakeStoreProductService implements IProductService{
     }
 
     @Override
-    public List<Product> getAllProducts() {
-        List<FakeStoreProductDto> fakeStoreProductDtoList = fakeStoreClient.getAllProducts();
-        List<Product> products = new ArrayList<>();
-        for (FakeStoreProductDto fakeStoreProductDto : fakeStoreProductDtoList)
-            products.add(getProduct(fakeStoreProductDto));
-        return products;
+    public Page<Product> getAllProducts(int page, int size) {
+        return null;
     }
+
+    //@Override
+//    public List<Product> getAllProducts() {
+//        List<FakeStoreProductDto> fakeStoreProductDtoList = fakeStoreClient.getAllProducts();
+//        List<Product> products = new ArrayList<>();
+//        for (FakeStoreProductDto fakeStoreProductDto : fakeStoreProductDtoList)
+//            products.add(getProduct(fakeStoreProductDto));
+//        return products;
+//    }
 
     @Override
     public Product createProduct(Product product) {

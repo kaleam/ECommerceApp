@@ -11,6 +11,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultMatcher;
@@ -51,8 +54,9 @@ public class ProductControllerMvcTests {
         List<Product> productList = new ArrayList<>();
         productList.add(product1);
         productList.add(product2);
+        Page<Product> productPage = new PageImpl<>(productList, PageRequest.of(0,10), productList.size());
 
-        when(productService.getAllProducts()).thenReturn(productList);
+        when(productService.getAllProducts(0,10)).thenReturn(productPage);
 
         mockMvc.perform(get("/products"))
                 .andExpect(status().is2xxSuccessful())

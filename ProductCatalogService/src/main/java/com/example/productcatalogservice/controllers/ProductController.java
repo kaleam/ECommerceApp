@@ -6,6 +6,7 @@ import com.example.productcatalogservice.models.Category;
 import com.example.productcatalogservice.models.Product;
 import com.example.productcatalogservice.services.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.LinkedMultiValueMap;
@@ -22,11 +23,11 @@ public class ProductController {
     @Autowired
     private IProductService productService;
 
-    @GetMapping
-    public List<ProductDto> getProducts(){
-        List<Product> products = productService.getAllProducts();
+    @GetMapping()
+    public List<ProductDto> getProducts(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size){
+        Page<Product> productPage= productService.getAllProducts(page, size);
         List<ProductDto> productDtos = new ArrayList<>();
-        for (Product product : products) {
+        for (Product product : productPage.getContent()) {
             productDtos.add(getProductDto(product));
         }
         return productDtos;
