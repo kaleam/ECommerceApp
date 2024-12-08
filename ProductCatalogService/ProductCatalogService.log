@@ -1,0 +1,463 @@
+2024-12-08T00:00:00.107+05:30  INFO 22984 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T00:00:00.579+05:30  INFO 22984 --- [ProductCatalogService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bbc02ef
+2024-12-08T00:00:00.579+05:30  INFO 22984 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T00:00:01.695+05:30  INFO 22984 --- [ProductCatalogService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T00:00:01.742+05:30  INFO 22984 --- [ProductCatalogService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T00:00:02.198+05:30  WARN 22984 --- [ProductCatalogService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T00:00:03.283+05:30  INFO 22984 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : Started ProductCatalogServiceApplicationTests in 7.031 seconds (process running for 8.125)
+2024-12-08T00:00:03.473+05:30  INFO 22984 --- [ProductCatalogService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T00:00:03.473+05:30  INFO 22984 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T00:00:03.492+05:30  INFO 22984 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T00:04:37.616+05:30  INFO 23780 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : Starting ProductCatalogServiceApplicationTests using Java 17.0.12 with PID 23780 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T00:04:37.627+05:30  INFO 23780 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T00:04:38.365+05:30  INFO 23780 --- [ProductCatalogService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T00:04:38.412+05:30  INFO 23780 --- [ProductCatalogService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2024-12-08T00:04:40.217+05:30  INFO 23780 --- [ProductCatalogService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T00:04:40.313+05:30  INFO 23780 --- [ProductCatalogService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-08T00:04:40.453+05:30  INFO 23780 --- [ProductCatalogService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T00:04:40.689+05:30  INFO 23780 --- [ProductCatalogService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T00:04:40.721+05:30  INFO 23780 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T00:04:41.050+05:30  INFO 23780 --- [ProductCatalogService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6eb00cbe
+2024-12-08T00:04:41.050+05:30  INFO 23780 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T00:04:41.976+05:30  INFO 23780 --- [ProductCatalogService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T00:04:42.028+05:30  INFO 23780 --- [ProductCatalogService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T00:04:42.530+05:30  WARN 23780 --- [ProductCatalogService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T00:04:43.445+05:30  INFO 23780 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : Started ProductCatalogServiceApplicationTests in 6.124 seconds (process running for 7.185)
+2024-12-08T00:04:43.511+05:30  INFO 23780 --- [ProductCatalogService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T00:04:43.528+05:30  INFO 23780 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T00:04:43.533+05:30  INFO 23780 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T00:18:06.493+05:30  INFO 31612 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Starting ProductControllerMvcTests using Java 17.0.12 with PID 31612 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T00:18:06.493+05:30  INFO 31612 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T00:18:08.986+05:30  INFO 31612 --- [ProductCatalogService] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-08T00:18:08.986+05:30  INFO 31612 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-08T00:18:08.986+05:30  INFO 31612 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-08T00:18:09.085+05:30  INFO 31612 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Started ProductControllerMvcTests in 2.944 seconds (process running for 3.858)
+2024-12-08T00:19:40.456+05:30  INFO 26044 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : Starting ProductCatalogServiceApplicationTests using Java 17.0.12 with PID 26044 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T00:19:40.456+05:30  INFO 26044 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T00:19:41.122+05:30  INFO 26044 --- [ProductCatalogService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T00:19:41.184+05:30  INFO 26044 --- [ProductCatalogService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2024-12-08T00:19:43.000+05:30  INFO 26044 --- [ProductCatalogService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T00:19:43.089+05:30  INFO 26044 --- [ProductCatalogService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-08T00:19:43.200+05:30  INFO 26044 --- [ProductCatalogService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T00:19:43.450+05:30  INFO 26044 --- [ProductCatalogService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T00:19:43.501+05:30  INFO 26044 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T00:19:43.844+05:30  INFO 26044 --- [ProductCatalogService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74e4be21
+2024-12-08T00:19:43.859+05:30  INFO 26044 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T00:19:44.776+05:30  INFO 26044 --- [ProductCatalogService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T00:19:44.823+05:30  INFO 26044 --- [ProductCatalogService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T00:19:45.246+05:30  WARN 26044 --- [ProductCatalogService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T00:19:46.504+05:30  INFO 26044 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : Started ProductCatalogServiceApplicationTests in 6.335 seconds (process running for 7.262)
+2024-12-08T00:19:46.672+05:30  INFO 26044 --- [ProductCatalogService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T00:19:46.688+05:30  INFO 26044 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T00:19:46.704+05:30  INFO 26044 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T00:20:59.164+05:30  INFO 25248 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : Starting ProductCatalogServiceApplicationTests using Java 17.0.12 with PID 25248 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T00:20:59.179+05:30  INFO 25248 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T00:20:59.892+05:30  INFO 25248 --- [ProductCatalogService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T00:20:59.955+05:30  INFO 25248 --- [ProductCatalogService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2024-12-08T00:21:02.156+05:30  INFO 25248 --- [ProductCatalogService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T00:21:02.285+05:30  INFO 25248 --- [ProductCatalogService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-08T00:21:02.409+05:30  INFO 25248 --- [ProductCatalogService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T00:21:02.742+05:30  INFO 25248 --- [ProductCatalogService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T00:21:02.816+05:30  INFO 25248 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T00:21:03.185+05:30  INFO 25248 --- [ProductCatalogService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40b54762
+2024-12-08T00:21:03.185+05:30  INFO 25248 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T00:21:04.205+05:30  INFO 25248 --- [ProductCatalogService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T00:21:04.252+05:30  INFO 25248 --- [ProductCatalogService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T00:21:04.712+05:30  WARN 25248 --- [ProductCatalogService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T00:21:05.628+05:30  INFO 25248 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : Started ProductCatalogServiceApplicationTests in 6.754 seconds (process running for 7.714)
+2024-12-08T00:21:05.888+05:30  INFO 25248 --- [ProductCatalogService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T00:21:05.888+05:30  INFO 25248 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T00:21:05.913+05:30  INFO 25248 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T00:22:53.409+05:30  INFO 7656 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : Starting ProductCatalogServiceApplicationTests using Java 17.0.12 with PID 7656 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T00:22:53.409+05:30  INFO 7656 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T00:22:54.099+05:30  INFO 7656 --- [ProductCatalogService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T00:22:54.153+05:30  INFO 7656 --- [ProductCatalogService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2024-12-08T00:22:55.939+05:30  INFO 7656 --- [ProductCatalogService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T00:22:56.050+05:30  INFO 7656 --- [ProductCatalogService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-08T00:22:56.160+05:30  INFO 7656 --- [ProductCatalogService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T00:22:56.475+05:30  INFO 7656 --- [ProductCatalogService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T00:22:56.553+05:30  INFO 7656 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T00:22:56.884+05:30  INFO 7656 --- [ProductCatalogService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74e4be21
+2024-12-08T00:22:56.884+05:30  INFO 7656 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T00:22:57.787+05:30  INFO 7656 --- [ProductCatalogService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T00:22:57.835+05:30  INFO 7656 --- [ProductCatalogService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T00:22:58.404+05:30  WARN 7656 --- [ProductCatalogService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T00:22:59.506+05:30  INFO 7656 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : Started ProductCatalogServiceApplicationTests in 6.367 seconds (process running for 7.354)
+2024-12-08T00:22:59.550+05:30  INFO 7656 --- [ProductCatalogService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T00:22:59.565+05:30  INFO 7656 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T00:22:59.565+05:30  INFO 7656 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T00:25:00.217+05:30  INFO 19028 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Starting ProductControllerMvcTests using Java 17.0.12 with PID 19028 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T00:25:00.232+05:30  INFO 19028 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T00:25:02.564+05:30  INFO 19028 --- [ProductCatalogService] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-08T00:25:02.564+05:30  INFO 19028 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-08T00:25:02.579+05:30  INFO 19028 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 15 ms
+2024-12-08T00:25:02.664+05:30  INFO 19028 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Started ProductControllerMvcTests in 2.831 seconds (process running for 3.717)
+2024-12-08T00:26:03.785+05:30  INFO 29540 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Starting ProductControllerMvcTests using Java 17.0.12 with PID 29540 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T00:26:03.791+05:30  INFO 29540 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T00:26:06.209+05:30  INFO 29540 --- [ProductCatalogService] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-08T00:26:06.209+05:30  INFO 29540 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-08T00:26:06.209+05:30  INFO 29540 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-08T00:26:06.288+05:30  INFO 29540 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Started ProductControllerMvcTests in 2.818 seconds (process running for 3.795)
+2024-12-08T00:29:17.209+05:30  INFO 23628 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Starting ProductControllerMvcTests using Java 17.0.12 with PID 23628 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T00:29:17.209+05:30  INFO 23628 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T00:29:19.589+05:30  INFO 23628 --- [ProductCatalogService] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-08T00:29:19.589+05:30  INFO 23628 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-08T00:29:19.589+05:30  INFO 23628 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-08T00:29:19.666+05:30  INFO 23628 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Started ProductControllerMvcTests in 2.765 seconds (process running for 3.689)
+2024-12-08T09:25:20.881+05:30  INFO 10908 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Starting ProductControllerMvcTests using Java 17.0.12 with PID 10908 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T09:25:20.881+05:30  INFO 10908 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T09:25:26.264+05:30  INFO 10908 --- [ProductCatalogService] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-08T09:25:26.264+05:30  INFO 10908 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-08T09:25:26.264+05:30  INFO 10908 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-08T09:25:26.563+05:30  INFO 10908 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Started ProductControllerMvcTests in 6.214 seconds (process running for 7.85)
+2024-12-08T09:25:36.221+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : Starting ProductCatalogServiceApplication using Java 17.0.12 with PID 15948 (D:\Git_Repos\ECommerceApp\ProductCatalogService\target\classes started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T09:25:36.224+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T09:25:36.295+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-08T09:25:36.296+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-08T09:25:37.340+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T09:25:37.440+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interface.
+2024-12-08T09:25:38.285+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-08T09:25:38.305+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T09:25:38.305+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-08T09:25:38.385+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T09:25:38.386+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2088 ms
+2024-12-08T09:25:38.628+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T09:25:38.778+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-08T09:25:38.857+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T09:25:39.297+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T09:25:39.382+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T09:25:40.023+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63f0d4c1
+2024-12-08T09:25:40.026+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T09:25:41.531+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T09:25:41.629+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:25:41.640+05:30  WARN 15948 --- [ProductCatalogService] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fakeStoreClient' defined in file [D:\Git_Repos\ECommerceApp\ProductCatalogService\target\classes\com\example\productcatalogservice\clients\FakeStoreClient.class]: null
+2024-12-08T09:25:41.640+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:25:41.645+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T09:25:41.661+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T09:25:41.664+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-12-08T09:25:41.684+05:30  INFO 15948 --- [ProductCatalogService] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-08T09:25:41.707+05:30 ERROR 15948 --- [ProductCatalogService] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fakeStoreClient' defined in file [D:\Git_Repos\ECommerceApp\ProductCatalogService\target\classes\com\example\productcatalogservice\clients\FakeStoreClient.class]: null
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar:3.3.2]
+	at com.example.productcatalogservice.ProductCatalogServiceApplication.main(ProductCatalogServiceApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.2.jar:3.3.2]
+Caused by: java.lang.ExceptionInInitializerError: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:94) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1331) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 22 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "com.example.productcatalogservice.configs.AppConfig.getRestTemplate()" because "com.example.productcatalogservice.clients.FakeStoreClient.restTemplateUtil" is null
+	at com.example.productcatalogservice.clients.FakeStoreClient.<clinit>(FakeStoreClient.java:24) ~[classes/:na]
+	... 30 common frames omitted
+
+2024-12-08T09:27:16.683+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : Starting ProductCatalogServiceApplication using Java 17.0.12 with PID 5536 (D:\Git_Repos\ECommerceApp\ProductCatalogService\target\classes started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T09:27:16.687+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T09:27:16.739+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-08T09:27:16.740+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-08T09:27:17.660+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T09:27:17.762+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interface.
+2024-12-08T09:27:18.425+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-08T09:27:18.439+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T09:27:18.439+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-08T09:27:18.520+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T09:27:18.520+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1780 ms
+2024-12-08T09:27:18.679+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T09:27:18.726+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-08T09:27:18.757+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T09:27:19.056+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T09:27:19.111+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T09:27:19.440+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1aed48c0
+2024-12-08T09:27:19.442+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T09:27:20.750+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T09:27:20.860+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:27:20.874+05:30  WARN 5536 --- [ProductCatalogService] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fakeStoreClient' defined in file [D:\Git_Repos\ECommerceApp\ProductCatalogService\target\classes\com\example\productcatalogservice\clients\FakeStoreClient.class]: Failed to instantiate [com.example.productcatalogservice.clients.FakeStoreClient]: Constructor threw exception
+2024-12-08T09:27:20.875+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:27:20.882+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T09:27:20.899+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T09:27:20.924+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-12-08T09:27:20.943+05:30  INFO 5536 --- [ProductCatalogService] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-08T09:27:20.966+05:30 ERROR 5536 --- [ProductCatalogService] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fakeStoreClient' defined in file [D:\Git_Repos\ECommerceApp\ProductCatalogService\target\classes\com\example\productcatalogservice\clients\FakeStoreClient.class]: Failed to instantiate [com.example.productcatalogservice.clients.FakeStoreClient]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar:3.3.2]
+	at com.example.productcatalogservice.ProductCatalogServiceApplication.main(ProductCatalogServiceApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.2.jar:3.3.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.productcatalogservice.clients.FakeStoreClient]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:94) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1331) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 22 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "com.example.productcatalogservice.configs.AppConfig.getRestTemplate()" because "this.restTemplateUtil" is null
+	at com.example.productcatalogservice.clients.FakeStoreClient.<init>(FakeStoreClient.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 24 common frames omitted
+
+2024-12-08T09:29:50.267+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : Starting ProductCatalogServiceApplication using Java 17.0.12 with PID 1776 (D:\Git_Repos\ECommerceApp\ProductCatalogService\target\classes started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T09:29:50.271+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T09:29:50.341+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-08T09:29:50.342+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-08T09:29:51.429+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T09:29:51.517+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2024-12-08T09:29:52.334+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-08T09:29:52.352+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T09:29:52.352+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-08T09:29:52.456+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T09:29:52.457+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2114 ms
+2024-12-08T09:29:52.663+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T09:29:52.739+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-08T09:29:52.781+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T09:29:53.160+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T09:29:53.216+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T09:29:53.597+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ac38cca
+2024-12-08T09:29:53.600+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T09:29:54.991+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T09:29:55.067+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:29:55.078+05:30  WARN 1776 --- [ProductCatalogService] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fakeStoreClient' defined in file [D:\Git_Repos\ECommerceApp\ProductCatalogService\target\classes\com\example\productcatalogservice\clients\FakeStoreClient.class]: Failed to instantiate [com.example.productcatalogservice.clients.FakeStoreClient]: Constructor threw exception
+2024-12-08T09:29:55.079+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:29:55.084+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T09:29:55.101+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T09:29:55.103+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-12-08T09:29:55.120+05:30  INFO 1776 --- [ProductCatalogService] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-08T09:29:55.145+05:30 ERROR 1776 --- [ProductCatalogService] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fakeStoreClient' defined in file [D:\Git_Repos\ECommerceApp\ProductCatalogService\target\classes\com\example\productcatalogservice\clients\FakeStoreClient.class]: Failed to instantiate [com.example.productcatalogservice.clients.FakeStoreClient]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar:3.3.2]
+	at com.example.productcatalogservice.ProductCatalogServiceApplication.main(ProductCatalogServiceApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.2.jar:3.3.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.productcatalogservice.clients.FakeStoreClient]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:94) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1331) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 22 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "com.example.productcatalogservice.configs.AppConfig.getRestTemplate()" because "this.restTemplateUtil" is null
+	at com.example.productcatalogservice.clients.FakeStoreClient.<init>(FakeStoreClient.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 24 common frames omitted
+
+2024-12-08T09:39:02.607+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : Starting ProductCatalogServiceApplication using Java 17.0.12 with PID 26776 (D:\Git_Repos\ECommerceApp\ProductCatalogService\target\classes started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T09:39:02.609+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T09:39:02.659+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-08T09:39:02.659+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-08T09:39:03.343+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T09:39:03.415+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+2024-12-08T09:39:04.015+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-08T09:39:04.030+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T09:39:04.030+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-08T09:39:04.090+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T09:39:04.091+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1431 ms
+2024-12-08T09:39:04.254+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T09:39:04.307+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-08T09:39:04.337+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T09:39:04.634+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T09:39:04.701+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T09:39:05.033+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c6793ed
+2024-12-08T09:39:05.035+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T09:39:06.168+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T09:39:06.243+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:39:06.774+05:30  WARN 26776 --- [ProductCatalogService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T09:39:07.150+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-08T09:39:07.202+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-08T09:39:07.214+05:30  INFO 26776 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : Started ProductCatalogServiceApplication in 4.991 seconds (process running for 5.79)
+2024-12-08T09:39:28.741+05:30  INFO 26776 --- [ProductCatalogService] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-08T09:39:28.741+05:30  INFO 26776 --- [ProductCatalogService] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-08T09:39:28.745+05:30  INFO 26776 --- [ProductCatalogService] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-12-08T09:39:28.810+05:30 ERROR 26776 --- [ProductCatalogService] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "productPage" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.data.domain.Page.getContent()" because "productPage" is null
+	at com.example.productcatalogservice.controllers.ProductController.getProducts(ProductController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-12-08T09:43:28.188+05:30  INFO 26776 --- [ProductCatalogService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:43:28.188+05:30  INFO 26776 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T09:43:28.204+05:30  INFO 26776 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T09:43:33.566+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : Starting ProductCatalogServiceApplication using Java 17.0.12 with PID 3228 (D:\Git_Repos\ECommerceApp\ProductCatalogService\target\classes started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T09:43:33.570+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T09:43:33.631+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-08T09:43:33.631+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-08T09:43:34.725+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T09:43:34.805+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2024-12-08T09:43:35.640+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-08T09:43:35.654+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T09:43:35.655+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-08T09:43:35.734+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T09:43:35.735+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2103 ms
+2024-12-08T09:43:35.933+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T09:43:35.985+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-08T09:43:36.020+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T09:43:36.365+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T09:43:36.429+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T09:43:36.842+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6692efff
+2024-12-08T09:43:36.845+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T09:43:38.197+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T09:43:38.279+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:43:38.763+05:30  WARN 3228 --- [ProductCatalogService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T09:43:39.121+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-08T09:43:39.170+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-08T09:43:39.182+05:30  INFO 3228 --- [ProductCatalogService] [restartedMain] c.e.p.ProductCatalogServiceApplication   : Started ProductCatalogServiceApplication in 6.006 seconds (process running for 6.843)
+2024-12-08T09:43:44.954+05:30  INFO 3228 --- [ProductCatalogService] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-08T09:43:44.954+05:30  INFO 3228 --- [ProductCatalogService] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-08T09:43:44.955+05:30  INFO 3228 --- [ProductCatalogService] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-08T09:44:25.444+05:30  INFO 31340 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : Starting ProductCatalogServiceApplicationTests using Java 17.0.12 with PID 31340 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T09:44:25.452+05:30  INFO 31340 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T09:44:26.663+05:30  INFO 31340 --- [ProductCatalogService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T09:44:26.777+05:30  INFO 31340 --- [ProductCatalogService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 1 JPA repository interface.
+2024-12-08T09:44:30.306+05:30  INFO 31340 --- [ProductCatalogService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T09:44:30.479+05:30  INFO 31340 --- [ProductCatalogService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-08T09:44:30.653+05:30  INFO 31340 --- [ProductCatalogService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T09:44:31.123+05:30  INFO 31340 --- [ProductCatalogService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T09:44:31.244+05:30  INFO 31340 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T09:44:31.971+05:30  INFO 31340 --- [ProductCatalogService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40b54762
+2024-12-08T09:44:31.979+05:30  INFO 31340 --- [ProductCatalogService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T09:44:33.759+05:30  INFO 31340 --- [ProductCatalogService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T09:44:33.866+05:30  INFO 31340 --- [ProductCatalogService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:44:35.894+05:30  WARN 31340 --- [ProductCatalogService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T09:44:37.042+05:30  INFO 31340 --- [ProductCatalogService] [main] .p.ProductCatalogServiceApplicationTests : Started ProductCatalogServiceApplicationTests in 12.058 seconds (process running for 13.371)
+2024-12-08T09:44:37.547+05:30  INFO 31340 --- [ProductCatalogService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:44:37.560+05:30  INFO 31340 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T09:44:37.591+05:30  INFO 31340 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T09:44:52.020+05:30  INFO 3228 --- [ProductCatalogService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T09:44:52.021+05:30  INFO 3228 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T09:44:52.038+05:30  INFO 3228 --- [ProductCatalogService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T09:44:59.983+05:30  INFO 28556 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Starting ProductControllerMvcTests using Java 17.0.12 with PID 28556 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T09:44:59.991+05:30  INFO 28556 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T09:45:05.309+05:30  INFO 28556 --- [ProductCatalogService] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-08T09:45:05.313+05:30  INFO 28556 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-08T09:45:05.317+05:30  INFO 28556 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2024-12-08T09:45:05.465+05:30  INFO 28556 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Started ProductControllerMvcTests in 6.322 seconds (process running for 8.09)
+2024-12-08T09:45:18.400+05:30  INFO 21596 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Starting ProductControllerMvcTests using Java 17.0.12 with PID 21596 (started by ASUS in D:\Git_Repos\ECommerceApp\ProductCatalogService)
+2024-12-08T09:45:18.401+05:30  INFO 21596 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T09:45:24.231+05:30  INFO 21596 --- [ProductCatalogService] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-08T09:45:24.231+05:30  INFO 21596 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-08T09:45:24.231+05:30  INFO 21596 --- [ProductCatalogService] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-08T09:45:24.394+05:30  INFO 21596 --- [ProductCatalogService] [main] c.e.p.tests.ProductControllerMvcTests    : Started ProductControllerMvcTests in 6.765 seconds (process running for 8.197)

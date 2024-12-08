@@ -1,6 +1,7 @@
 package com.example.productcatalogservice;
 
 import com.example.productcatalogservice.controllers.ProductController;
+import com.example.productcatalogservice.dtos.CategoryDto;
 import com.example.productcatalogservice.dtos.ProductDto;
 import com.example.productcatalogservice.models.Category;
 import com.example.productcatalogservice.models.Product;
@@ -66,5 +67,34 @@ class ProductCatalogServiceApplicationTests {
         Exception exception = assertThrows(RuntimeException.class, () -> productController.getProductById(id));
         assertNotNull(exception);
         assertEquals(exception.getMessage(), "something went wrong");
+    }
+
+    @Test
+    public void Test_CreateProduct(){
+        Product product = new Product();
+        product.setId(1L);
+        product.setName("iphone 15");
+        product.setPrice(50000.0);
+        Category category = new Category();
+        category.setName("Phone");
+        product.setCategory(category);
+        when(productService.createProduct(any(Product.class))).thenReturn(product);
+
+        ProductDto productDto = new ProductDto();
+        productDto.setId(1L);
+        productDto.setName("iphone 15");
+        productDto.setPrice(50000.0);
+        CategoryDto categoryDto = new CategoryDto();
+        categoryDto.setName("Phone");
+        productDto.setCategory(categoryDto);
+
+        ProductDto createProductResponse = productController.createProduct(productDto);
+
+        assertNotNull(createProductResponse);
+        assertEquals(createProductResponse.getName(), "iphone 15");
+        assertEquals(createProductResponse.getPrice(), 50000.0);
+        assertEquals(createProductResponse.getCategory().getName(), "Phone");
+
+        //verify(productService, times(1)).createProduct(product);
     }
 }

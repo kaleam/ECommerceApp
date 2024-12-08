@@ -41,8 +41,21 @@ public class ProductControllerMvcTests {
 
     @Test
     public void Test_GetAllProducts_CheckStatusOnly() throws Exception {
+        Product product1 = new Product();
+        product1.setName("iphone15");
+        Product product2 = new Product();
+        product2.setName("iphone16");
+        List<Product> productList = new ArrayList<>();
+        productList.add(product1);
+        productList.add(product2);
+        Page<Product> productPage = new PageImpl<>(productList, PageRequest.of(0,10), productList.size());
+
+        when(productService.getAllProducts(0,10)).thenReturn(productPage);
+
         mockMvc.perform(get("/products"))
-                .andExpect(status().is2xxSuccessful());
+                .andExpect(status().is2xxSuccessful())
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$[0].name").value(product1.getName()));
     }
 
     @Test
